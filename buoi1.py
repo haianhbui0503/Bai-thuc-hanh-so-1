@@ -29,7 +29,25 @@ if x % 2 ==0:
   print ("Số chẵn")
 else:
   print("Số lẻ")
-
-
+#Bai7
+a=input("Nhập số a: ")
+b=input("Nhập số b: ")
+if a==b:
+  print("Hai số a, b bằng nhau")
+elif a>b:
+  print(a)
+else:
+  print(b)
+#Bai8
+diem_trung_binh = float(input("Nhập điểm trung bình môn: "))
+if diem_trung_binh >= 8:
+  print("Giỏi")
+elif 6.4 <= diem_trung_binh <= 7.9:
+  print("Khá")
+elif 5 <= diem_trung_binh <= 6.4:
+  print("Trung bình")
+else:
+  print("Yếu")
+  
 
 
