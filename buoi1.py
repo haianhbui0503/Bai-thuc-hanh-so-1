@@ -23,6 +23,7 @@ ten = "Hai Anh"
 tuoi = 18
 print(f"Tôi tên là {ten}, tôi {tuoi} tuổi")
 print(f"Sang năm tôi sẽ {tuoi + 1} tuổi")
+#Bai6
 x= int(input("Nhập số: "))
 if x % 2 ==0:
   print ("Số chẵn")
