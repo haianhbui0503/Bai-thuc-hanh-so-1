@@ -8,7 +8,9 @@ print(f"Xin chào, tôi là {name}, năm nay {age} tuổi, đang học tại {sc
 chieu_dai = float(input())
 chieu_rong = float(input())
 chu_vi = (chieu_dai + chieu_rong) * 2
-dien_tich= chieu_dai * chieu_rong
+dien_tich=  round(chieu_dai * chieu_rong, 2)
+print("Chu vi bằng:", chu_vi)
+print("Diện tích bằng:", dien_tich)
 
 #Bai3
 C = int(input("Nhập số: "))
@@ -20,7 +22,7 @@ Toan = float(input("Điểm Toán: "))
 Van = float(input("Điểm Văn: "))
 Anh = float(input("Điểm Anh: "))
 trung_binh= (Toan + Van + Anh) /3
-print(round(trung_binh, 2))
+print("Điểm trung bình 3 môn là:", round(trung_binh, 2))
 
 #Bai5
 ten = "Hai Anh"
@@ -42,7 +44,7 @@ if a==b:
   print("Hai số a, b bằng nhau")
 elif a>b:
   print(a)
-else:
+elif b>a:
   print(b)
 
 #Bai8
@@ -84,7 +86,7 @@ for i in range (1, 11):
 n = int (input("Nhập một số n: "))
 for i in range (1, n):
   n += i
-print(n)
+print("Tổng từ 1 đến n bằng:", n)
 
 #Bai13
 n = int (input("Nhập số lượng phấn tử: "))
